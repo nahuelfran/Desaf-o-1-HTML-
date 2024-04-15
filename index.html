@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 HTML></title>
+    <link rel="icon" href="./img/logo.ico">
+</head>
+<body>
+    <h1>Milanesa Napolitana</h1>
+
+    <p>Receta de milanesas napolitanas casera</p>
+
+    <img src="./img/milanesa.jpg" alt="Imagen de Milanesa Napolitana" width="30%">
+
+    <h2>Igredientes</h2>
+    <ul>
+        <li>Filetes de carne</li>
+        <li>Harina</li>
+        <li>Huevo</li>
+        <li>Pan rallado</li>
+        <li>Salsa de tomate casera</li>
+        <li>Orégano</li>
+        <li>Jamón cocido</li>
+        <li>Queso mozzarella</li>
+    </ul>
+
+    <h2>Elaboración (Pasos)</h2>
+    <ol>
+        <li>Salpimenta los filetes de carne.</li>
+        <li>Empana los filetes pasándolos por harina, huevo batido y pan rallado.</li>
+        <li>Fríe los filetes empanados en abundante aceite caliente hasta que estén dorados.</li>
+        <li>Cubre cada filete con salsa de tomate casera.</li>
+        <li>Espolvorea orégano sobre la salsa.</li>
+        <li>Coloca una loncha de jamón cocido sobre cada filete</li>
+        <li>Finalmente, cubre todo con queso mozzarella.</li>
+        <li>Gratina en el horno durante unos 15 minutos o hasta que el queso esté derretido y dorado</li>
+    </ol>
+
+    <form action="" method="" target="">
+        <fieldset>
+            <legend>
+                <h3>Dejanos tu comentario</h3>
+            </legend>
+            <p>
+                Tu dirección de correo electrónico no sera publicada. Los campos obligatorios estan marcados con *
+            </p>
+
+             <p>
+                <legend>Comentario</legend>
+                <textarea name="comentario" id="descripcion" cols="100" rows="10"></textarea>
+            </p>
+
+            <p>
+                <label for="nombres">Nombre</label>
+                <input type="text" id="nombres" name="nombre" placeholder="Nombre *" size="30" minlength="3" maxlength="30" required>
+            </p>
+            <p>
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" placeholder="Correo Electrónico *"
+                   pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" size="30" minlength="3" maxlength="30" required>
+             </p>
+             
+            <p>
+                <label for="telefono">Número telefónico</label>
+                <input type="tel" id="telefono" placeholder="Número telefónico" required>
+            </p>
+
+            <p>
+                <input type="checkbox" id="Terminos" name="Terminos" required>
+                <label for="Terminos">Acepto los términos y condiciones</label>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar Comentario">
+                <input type="reset" value="Limpiar">
+            </p>
+        </fieldset>
+    </form>
+
+</body>
+</html>
